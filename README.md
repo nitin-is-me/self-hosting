@@ -25,5 +25,8 @@ and
 ```
 pktriot tunnel http add --domain chat.muster.dedyn.io --destination localhost --http 3000 --letsencrypt
 ```
+
+NOTE: I'm not sure if the first record is necessary because in the end we just need our website to run at our domain, not the randomurl, but for now let's keep both!
+
 ### Step 6: Finished!
 Now start your tunnel by running `pktriot start`
