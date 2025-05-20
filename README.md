@@ -27,6 +27,8 @@ pktriot tunnel http add --domain chat.muster.dedyn.io --destination localhost --
 ```
 
 NOTE: I'm not sure if the first record is necessary because in the end we just need our website to run at our domain, not the randomurl, but for now let's keep both!
+<br>
+Edit: Yes I can confirm, the first record isn't necessary because we don't want to run our site on random url, we need to run it on our domain.
 
 ### Step 6: Finished!
 Now start your tunnel by running `pktriot start`
